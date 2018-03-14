@@ -29,6 +29,7 @@ This quickstart uses your computer or virtual machine like an Internet of Things
    * MacOS: `sudo easy_install pip`.
 * Docker, to run the IoT Edge modules
    * [Install Docker for Linux][lnk-docker-ubuntu] and make sure that it's running. 
+    https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu   
    * [Install Docker for Mac][lnk-docker-mac] and make sure that it's running. 
 
 ## Create an IoT hub with Azure CLI
