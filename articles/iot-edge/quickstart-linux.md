@@ -94,7 +94,7 @@ sudo docker ps
 
 ## Deploy a module
 
-[!INCLUDE [iot-edge-deploy-module](../../includes/iot-edge-deploy-module.md)]
+[!INCLUDE [iot-edge-deploy-module](https://github.com/myamama/azure-docs/blob/master/includes/iot-edge-deploy-module.md)]
 
 ## View generated data
 
