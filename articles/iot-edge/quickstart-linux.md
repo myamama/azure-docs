@@ -22,14 +22,15 @@ If you don't have an active Azure subscription, create a [free account][lnk-acco
 
 ## Prerequisites
 
+* [Provision an Ubuntu Server 16.04 LTS VM on Azure][lnk-provision-ubuntu-vm]
+
 This quickstart uses your computer or virtual machine like an Internet of Things device. To turn your machine into an IoT Edge device, the following services are required:
 
 * Python pip, to install the IoT Edge runtime.
    * Linux: `sudo apt-get install python-pip`.
    * MacOS: `sudo easy_install pip`.
 * Docker, to run the IoT Edge modules
-   * [Install Docker for Linux][lnk-docker-ubuntu] and make sure that it's running. 
-    https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu   
+   * [Install Docker for Linux][lnk-docker-ubuntu] and make sure that it's running. If failed to install docker you can try this link [install docker for Ubuntu][lnk-install-docker-ubuntu]
    * [Install Docker for Mac][lnk-docker-mac] and make sure that it's running. 
 
 ## Create an IoT hub with Azure CLI
@@ -150,6 +151,8 @@ You learned how to deploy an IoT Edge module to an IoT Edge device. Now try depl
 [lnk-account]: https://azure.microsoft.com/free
 [lnk-portal]: https://portal.azure.com
 [lnk-delete]: https://docs.microsoft.com/cli/azure/iot/hub?view=azure-cli-latest#az_iot_hub_delete
+[lnk-install-docker-ubuntu]: https://unix.stackexchange.com/questions/363048/unable-to-locate-package-docker-ce-on-a-64bit-ubuntu
+[lnk-provision-ubuntu-vm]: https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal
 
 <!-- Anchor links -->
 [anchor-register]: #register-an-iot-edge-device
