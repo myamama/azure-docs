@@ -159,6 +159,8 @@ You learned how to deploy an IoT Edge module to an IoT Edge device. Now try depl
 * [Deploy Azure Function as a module](tutorial-deploy-function.md)
 * [Deploy Azure Stream Analytics as a module](tutorial-deploy-stream-analytics.md)
 
+Added
+* [Customize Temp Sensor Module, and Create Your own DATA GENERATOR](https://github.com/Azure/iot-edge/tree/master/v2/samples/azureiotedge-simulated-temperature-sensor)
 
 <!-- Images -->
 [1]: ./media/quickstart/cloud-shell.png
